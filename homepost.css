@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+#btn{
+	position: relative;
+	height: 70px;
+	width: 150px;
+	left: 45%;
+	background-color: rgb(227, 100, 9);
+	border: none;
+	outline: none;
+	box-shadow: 0px 0px 10px slategrey;
+}
+#btn:hover{
+	transition-duration: 0.4s;
+	transform: scale(0.98);
+}
+.main-div{
+	position: relative;
+	margin-top: 20px;
+	height: 300px;
+	width: 600px;
+	left: 30%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px slategrey;
+	display: inline-flex;
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.maininner2{
+	position: relative;
+	height: 200px;
+	width: 300px;
+	left: 50px;
+	margin:30px;
+}
+.maininner1{
+	position: relative;
+	top: 30px;
+	height: 200px;
+	width: 200px;
+	left: 20px;
+	background-color: grey;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px slategrey;
+}
+.maininner1:hover{
+	transition-duration: 1s;
+	transform: scale(1.05);
+}
+.btn{
+	position: relative;
+	height: 30px;
+	width: 120px;
+	left: 100px;
+}
+.btn button{
+	position: relative;
+	top: 20px;
+	height: 50px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(242, 121, 34);
+	font-size: 15px;
+}
+.btn button:hover{
+	transition-duration: 0.5s;
+	transform: scale(0.95);
+}
+#nav{
+	position: sticky;
+	top: 0px;
+	width: 100%;	
+}

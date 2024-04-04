@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+#outer{
+	position: relative;
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+}

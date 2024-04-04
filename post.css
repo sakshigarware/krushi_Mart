@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+.main-div{
+	position: relative;
+	height: 600px;
+	width: 350px;
+	background-color: grey;
+}
+.postdiv{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	background-color: red;
+}

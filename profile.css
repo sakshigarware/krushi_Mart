@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+.outer{
+	position: relative;
+	height: 600px;
+	width: 300px;
+	left: 40%;
+	background-color: lightgrey;
+	box-shadow: 0px 0px 20px slategrey;
+}
+.outer input{
+	position: relative;
+	height: 40px;
+	width: 80%;
+	left: 0%;
+	margin:10px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	border-bottom: 2px solid grey;
+	font-size: 15px;
+}
+.inner{
+	position: relative;
+	top: 50px;
+}
+.inner button{
+	position: relative;
+	height: 40px;
+	width: 200px;
+	margin:10px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background-color: orange;
+	color: white;
+	font-size: 15px;
+}

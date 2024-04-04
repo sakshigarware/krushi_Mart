@@ -1,0 +1,179 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("Scene-20.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Signup
+{
+	position: relative;
+	height: 700px;
+	width: 400px;
+/*	background-color: grey;*/
+	left: 65%;
+	top: 10px;
+}
+.sign1
+{
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: 40px;
+	border-radius: 20px;
+	border: 2px solid black;
+	top: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 10px slategrey;
+}
+.sign2
+{
+	position: relative;
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+	border: 2px solid black;
+	margin: 40px;
+	background-color: rgb(255, 255, 255,0.76);
+	box-shadow: 0px 0px 10px slategrey;
+}
+.sign1inner
+{
+	position: relative;
+	height: 150px;
+	width: 150px;
+/*	background-color: blue;*/
+	background-image: url("pngfind.com-contact-icons-png-380414.png");
+	background-size: cover;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	top: 20px;
+}
+.sign1 button
+{
+    position: relative;
+	top: 40px;
+	height: 30px;
+	width: 40%;	
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(49, 151, 247);
+	box-shadow: 0px 2px 2px #5C5696;
+	color: whitesmoke;
+}
+.sign2 button
+{
+	position: relative;
+	top: 40px;
+	height: 30px;
+	width: 40%;
+	outline: none;
+	border: none;
+	background-color: rgb(49, 151, 247);
+	box-shadow: 0px 2px 2px #5C5696;
+	color: whitesmoke;
+	border-radius: 10px;
+}
+.sign2inner
+{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	top: 20px;
+/*	background-color: blue;*/
+	background-image: url("user-png-33856.png");
+	background-size: cover;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+.div1
+{
+	position: absolute;		
+	height: 400px;
+	width: 340px;
+	top: 170px;
+	left: 400px;
+	outline: slateblue;
+	background-color: rgb(255, 255, 255,0.2);
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px grey;
+	-webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+@keyframes scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+.div1 input
+{
+	border: none;
+	margin: 20px;
+	top: 10px;
+	height: 30px;
+	font-size: 20px;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+	outline: none;
+}
+.div1 input:active,
+.div1 input:focus,
+.div1 input:hover {
+	outline: none;
+	border-bottom-color: #6A679E;
+}
+#btn
+{
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 60%;
+	color: #4C489D;
+	box-shadow: 0px 2px 2px #5C5696;
+	cursor: pointer;
+	transition: .2s;
+}
+#btn:active,
+#btn:focus,
+#btn:hover {
+	border-color: #6A679E;
+	outline: none;
+}
+#btn:hover
+{
+	transform: scaleY(0.95);
+	transition-duration:0.5s ;
+}
+h3{
+	position: relative;
+	top: 40px;
+	color: rgb(6, 112, 212);
+}
